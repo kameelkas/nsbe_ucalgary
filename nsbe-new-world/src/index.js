@@ -1,23 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { ChakraProvider } from '@chakra-ui/react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
+const colors = {
+  brand: {
+    NSBEYellow: "#fff200",
+    NSBEGreen: "#2eb457",
+    NSBERed: "#ed1c2e",
+    NSBEBlack: "#231f20",
+  },
+};
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const theme = extendTheme({ colors });
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    
-    <ChakraProvider>
-    <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<App />} />
-        </Routes>
-      
-    </BrowserRouter>
+    <ChakraProvider theme={theme}>
+      <App />
     </ChakraProvider>
   </React.StrictMode>
 );
