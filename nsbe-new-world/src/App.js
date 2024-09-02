@@ -5,6 +5,7 @@ import { Box } from '@chakra-ui/react'
 import Contact from './Contact';
 import HomePage from './Home';
 import ParticlesComponent from './ParticleBackground';
+import NotFound from './defaultPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/events" element={<Event />} />
           <Route path="/members" element={<Members />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound/> } />
         </Routes>
       </Box>
     </Router>
