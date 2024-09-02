@@ -64,7 +64,7 @@ function About() {
                 <div className="history-header items-center">
                     <div className="hist2">
                     
-                    <h2 className="offer-head md:basis-1/2 text-center font-extrabold text-2xl my-auto mx-auto">Our Mission</h2>
+                    <h2 className="offer-head ">Our Mission</h2>
                     
                     <p className="about-info text-left text-lg mt-8 w-4/5 mx-auto pt-4 items-center">
                     NSBE is a non-profit organization that promotes and supports the professional development of collegiate. NSBE UCalgary, founded in 2023, we're dedicated to empowering and inspiring Black students and professionals in Science, Technology, Engineering, and Mathematics (STEM). As a proud chapter of the National Society of Black Engineers (NSBE), we're committed to our mission of increasing the number of culturally responsible Black engineers who excel academically, succeed professionally, and positively impact their communities. Whether you're a student aspiring to pursue a career in STEM, a seasoned professional looking to advance in your field, or an ally committed to promoting diversity and inclusion, NSBE UCalgary welcomes you with open arms.
@@ -88,22 +88,18 @@ function About() {
                             <p className="first-1 text-lg">Countries Across the World</p>
                         </div>
                     </div>
-                    <div className="relative overflow-hidden rounded-lg w-3/6">
+                    <div className="midsec">
 
                         <div className="slideshow overflow-x-auto whitespace-nowrap" ref={scrollRef}>
                         <video ref={videoRef} src={video1} width="100%" height="100%" muted></video>
                         </div>
 
-                        <div className="absolute left-0 top-0 bottom-0 flex items-center">
-                            <button onClick={handleScrollLeft} className="bg-gray-200 px-5 py-4 rounded-md mr-2">&lt;</button>
-                        </div>
-                        <div className="absolute right-0 top-0 bottom-0 flex items-center">
-                            <button onClick={handleScrollRight} className="bg-gray-200 px-5 py-4 rounded-md ml-2">&gt;</button>
-                        </div>
+                       
                     </div>
                     
+                    <div className='mid_help'>
                     <h2 className="offer-head md:basis-1/2 mt-8 dark:text-white font-extrabold text-3xl my-auto mx-auto">WHAT DO WE OFFER?</h2>
-                    <ul className="list-outside flex flex-col list-none text-lg dark:text-white justify-space-between w-full text-left items-center tracking-tight md:mt-6 md:ml-4">
+                    <div className="list-outside flex flex-col list-none text-lg dark:text-white justify-space-between w-full text-left items-center tracking-tight md:mt-6 md:ml-4">
                         <div className = 'grid1 flex flex-row'>
                         <div className='supacell'>
                         <p className='perc-head'><b>Professional Development Workshops</b></p>
@@ -140,12 +136,13 @@ function About() {
                         </div>
 
                         </div>
-                    </ul>
-                    <p className="get-involved mt-20 text-center dark:text-white text-lg tracking-tight">
+                    </div>
+                    </div>
+                    <p className="joinus mt-20 text-center dark:text-white text-lg tracking-tight">
                         Join us as we strive for excellence, innovation, and impact in STEM! Connect with us today to learn more about how you can get involved and make a difference.
                     </p>
-                    <div className="mx-auto text-center mt-4">
-                        <button type="button" className="transition hover:-translate-y-1 hover:scale-80 ease-in-out delay-100 text-white bg-whitefont-extrabold text-xl tracking-wider hover:shadow-xl hover:bg-amber-500 font-medium px-6 py-4 text-center dark:bg-teal-700 dark:hover:bg-teal-900">
+                    <div className="endstuff mx-auto text-center mt-4">
+                        <button type="button" className="get-involved transition hover:-translate-y-1 hover:scale-80 ease-in-out delay-100 text-white bg-whitefont-extrabold text-xl tracking-wider hover:shadow-xl hover:bg-amber-500 font-medium px-6 py-4 text-center dark:bg-teal-700 dark:hover:bg-teal-900">
                             <a href="#get-involved" rel="noreferrer">GET INVOLVED</a>
                         </button>
                     </div>
