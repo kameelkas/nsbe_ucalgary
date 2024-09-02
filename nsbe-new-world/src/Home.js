@@ -2,12 +2,12 @@ import React from 'react';
 import { Box, VStack, HStack, Heading, Text, Button, Icon, SimpleGrid, Image, Container, Flex } from '@chakra-ui/react';
 import { FaUsers, FaLightbulb, FaMedal } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import Offer from "./NsbeConference.webp";
-import profPeople from './NSBE National Convention.jpg'
-import sponsorBG from './NSBESponsor.jpg'
+import Offer from "./images/NsbeConference.webp";
+import profPeople from './images/NSBE National Convention.jpg'
+import sponsorBG from './images/NSBESponsor.jpg'
 import ParticlesComponent from './ParticleBackground';
-import news from './newsletter.png'
-import tea from './NsbeTea.webp'
+import news from './images/newsletter.png'
+import tea from './images/NsbeTea.webp'
 
 
 export default function HomePage() {
