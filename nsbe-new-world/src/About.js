@@ -143,7 +143,7 @@ function About() {
                     </p>
                     <div className="endstuff mx-auto text-center mt-4">
                         <button type="button" className="get-involved transition hover:-translate-y-1 hover:scale-80 ease-in-out delay-100 text-white bg-whitefont-extrabold text-xl tracking-wider hover:shadow-xl hover:bg-amber-500 font-medium px-6 py-4 text-center dark:bg-teal-700 dark:hover:bg-teal-900">
-                            <a href="#get-involved" rel="noreferrer">GET INVOLVED</a>
+                            <a href="/get-involved" rel="noreferrer">GET INVOLVED</a>
                         </button>
                     </div>
 
