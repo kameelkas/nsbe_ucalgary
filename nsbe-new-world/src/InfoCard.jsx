@@ -1,7 +1,7 @@
-import volunteer from "./volunteer.png";
-import mailing from "./mailing.png";
-import mentorship from "./mentorship.png";
-import member from "./partners.png";
+import volunteer from "./images/volunteer.png";
+import mailing from "./images/mailing.png";
+import mentorship from "./images/mentorship.png";
+import member from "./images/partners.png";
 import './getinvolved.css';
 
 

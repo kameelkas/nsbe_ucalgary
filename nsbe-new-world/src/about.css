@@ -28,6 +28,7 @@
     flex-direction: column;
     width: 100%;
     height: 85%;
+    margin-bottom: 0px;
 }
 
 .about-info {
@@ -63,8 +64,8 @@
 }
 
 #about {
-    background-color: white;
     color: black;
+    height: fit-content;
 }
 
 .section1 {
@@ -87,6 +88,7 @@
     flex-direction: column;
     align-items: center;
     height: fit-content;
+    background-color: white;
 
 }
 

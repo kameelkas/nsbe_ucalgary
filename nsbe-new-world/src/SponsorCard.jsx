@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
-import platinum from "./stone.png";
-import gold from "./gold-ingot.png";
-import silver from "./silver.png";
-import bronze from "./bronze.png";
+import platinum from "./images/stone.png";
+import gold from "./images/gold-ingot.png";
+import silver from "./images/silver.png";
+import bronze from "./images/bronze.png";
 import './getinvolved.css';
 import { Heading } from '@chakra-ui/react'
 
