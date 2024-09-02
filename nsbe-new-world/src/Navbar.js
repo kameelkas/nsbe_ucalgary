@@ -17,7 +17,13 @@ const Navbar = () => {
     const { isOpen, onToggle } = useDisclosure();
 
     return (
-        <Box bg="black" px={4} position="sticky">
+        <Box
+            bg="black"
+            px={4}
+            position="sticky"
+            top={0}
+            zIndex={1000} // Ensures the navbar stays above other content
+        >
             <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
                 <Image src={NSBELogo} alt="Logo" boxSize="50px" />
 

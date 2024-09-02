@@ -9,6 +9,8 @@ const Footer = () => {
             bg="black"
             color="white"
             textAlign="center"
+            position="sticky"
+            bottom={0}
         >
             <Divider borderColor="#fff200" width="100%" mx="auto" />
             <Stack direction="row" justifyContent="center" alignItems="center" spacing={6} mt={4}>
