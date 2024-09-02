@@ -21,6 +21,7 @@ root.render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
       <App />
+      <Footer />
     </ChakraProvider>
   </React.StrictMode>
 );
