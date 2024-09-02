@@ -41,7 +41,7 @@ const Event = () => {
   return (
     <Box display="flex" flexDirection="column" alignItems="center" pb={6}>
       <Heading color="white" pt={3}>Events</Heading>
-      <Text color="white" px={3} py={1}>
+      <Text color="white" width='80%' textAlign={'center'} px={3} py={1}>
         Stay up-to-date with our latest events and happenings! Below, you'll
         find our calendar of upcoming events, where you can find details on our
         workshops, webinars, and more.
