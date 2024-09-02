@@ -92,7 +92,7 @@ function Members() {
     },
     {
       name: "Dyenaan Dapoet",
-      role: "T.O.R.C.H",
+      role: "Technical Outreach Community Help Chair",
       imageUrl: Dyenaan,
       industry: "Software Engineering",
       skills: "Problem-Solving, Software Development, Leadership",
@@ -110,6 +110,16 @@ function Members() {
       linkedIn: "https://www.linkedin.com/in/amanda-tamakloe/",
       email: "amanda.tamakloe@ucalgary.ca",
     },
+    {
+        name: "Toluwalase Oseni",
+        role: "Marketing Chair",
+        imageUrl: Boy,
+        industry: "Electrical Engineering, Energy",
+        skills: "Problem-Solving, Creative Thinking Networking",
+        interests: "Faith, Personal Development, Entrepreneurship",
+        linkedIn: "https://www.linkedin.com/in/toluwalase-oseni-b5633a1b2/",
+        email: "toluwalase.oseni@ucalgary.ca",
+      },
   ];
 
   const settings = {
