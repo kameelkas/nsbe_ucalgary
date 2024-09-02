@@ -62,7 +62,7 @@ export default function HomePage() {
                                 size={{ base: "md", md: "lg" }}
                                 _hover={{ transform: "scale(1.05)" }}
                                 transition="all 0.3s"
-                                onClick={() => window.location.href = '/contact'} // Replace with your URL
+                                onClick={() => window.location.href = '/get-involved'} // Replace with your URL
                             >
                                 Become A Sponsor
                             </Button>
@@ -226,31 +226,34 @@ export default function HomePage() {
                     bg="rgba(0, 0, 0, 0.6)"
                 />
                 <Container maxW="container.lg" py={{ base: 12, md: 16, lg: 20 }} position="relative" h="100%" display="flex" alignItems="center" justifyContent="center">
-                    <VStack spacing={{ base: 8, md: 10, lg: 12 }} color="white" textAlign="center">
+                    <VStack spacing={{ base: 8, md: 10, lg: 12 }} color="white" textAlign="center" mt={{ base: 60, md: 8, lg: 40 }}>
                         <Heading fontSize={{ base: "xl", sm: "2xl", md: "3xl", lg: "4xl" }} fontWeight="bold" bgGradient="linear(to-r, green.400, blue.500)" bgClip="text">
                             OUR ESTEEMED SPONSORS
                         </Heading>
                         <Text fontSize={{ base: "sm", md: "md", lg: "lg" }} maxW={{ base: "full", md: "500px", lg: "600px" }}>
                             We are grateful for the support of our sponsors who help us achieve our mission and make a difference in the community. Thank you for your generosity and commitment to diversity and inclusion in STEM!
                         </Text>
-                        <SimpleGrid columns={{ base: 2, md: 3, lg: 4 }} spacing={{ base: 6, md: 8, lg: 10 }}>
+                        {/* <SimpleGrid columns={{ base: 2, md: 3, lg: 4 }} spacing={{ base: 6, md: 8, lg: 10 }}>
                             <Box display="flex" flexDirection="column" alignItems="center" _hover={{ transform: "scale(1.05)" }} transition="all 0.3s">
-                                <Image src="/images/platinum-sponsor-logo.png" alt="PLATINUM SPONSOR" mx="auto" maxH="80px" />
+                                <Image src={platinum} alt="PLATINUM SPONSOR" mx="auto" maxH="80px" />
                                 <Text mt={2} fontSize="sm" color="yellow.400">PLATINUM SPONSOR</Text>
                             </Box>
                             <Box display="flex" flexDirection="column" alignItems="center" _hover={{ transform: "scale(1.05)" }} transition="all 0.3s">
-                                <Image src="/images/gold-sponsor-logo.png" alt="GOLD SPONSOR" mx="auto" maxH="80px" />
+                                <Image src={gold} alt="GOLD SPONSOR" mx="auto" maxH="80px" />
                                 <Text mt={2} fontSize="sm" color="yellow.400">GOLD SPONSOR</Text>
                             </Box>
                             <Box display="flex" flexDirection="column" alignItems="center" _hover={{ transform: "scale(1.05)" }} transition="all 0.3s">
-                                <Image src="/images/silver-sponsor-logo.png" alt="SILVER SPONSOR" mx="auto" maxH="80px" />
+                                <Image src={silver} alt="SILVER SPONSOR" mx="auto" maxH="80px" />
                                 <Text mt={2} fontSize="sm" color="yellow.400">SILVER SPONSOR</Text>
                             </Box>
                             <Box display="flex" flexDirection="column" alignItems="center" _hover={{ transform: "scale(1.05)" }} transition="all 0.3s">
-                                <Image src="/images/bronze-sponsor-logo.png" alt="BRONZE SPONSOR" mx="auto" maxH="80px" />
+                                <Image src={bronze} alt="BRONZE SPONSOR" mx="auto" maxH="80px" />
                                 <Text mt={2} fontSize="sm" color="yellow.400">BRONZE SPONSOR</Text>
                             </Box>
-                        </SimpleGrid>
+                        </SimpleGrid> */}
+                        <Heading fontSize={{ base: '4xl', sm: '6xl' }}>
+                            Coming Soon
+                        </Heading>
                     </VStack>
                 </Container>
             </Box>
