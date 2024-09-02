@@ -243,6 +243,7 @@ nav span:hover {
     padding-bottom: 30px;
     transition: 0.3s ease-in;
     margin-top: 20px;
+    padding-right: 5px;
 }
 
 .flip-card-front:hover {
