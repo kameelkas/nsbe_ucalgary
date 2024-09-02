@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.page-header {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    /* background-color: #8a2be2; */
+    background: #231f20;
+    color: #FFFFFF;
+    text-shadow: 4px 7px 6px rgba(0, 0, 0);
+    /* border-radius: 1rem; */
+    padding: 1rem;
+    height: 100px;
+}
+
+
+.about-init {
+    background: rgb(138, 43, 226);
+    background: linear-gradient(180deg, rgba(138, 43, 226, 1) 29%, rgba(73, 16, 139, 1) 58%);
+    color: #F3F8FF
+}
+
+.about-container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+    margin-bottom: 0px;
+}
+
+.about-info {
+    height: 100%;
+    margin-top: 40px;
+}
+
+.offer-container {
+    background: #231f20;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.offer-head {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 5%;
+    width: 100%;
+
+}
+
+.mid_help {
+    background-color: #ed1c2e;
+    height: 600px;
+    width: fit-content;
+    margin-top: 30px;
+    color: white;
+    border-radius: 15px;
+}
+
+#about {
+    color: black;
+    height: fit-content;
+}
+
+.section1 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    height: fit-content;
+}
+
+.list-outside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.history-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    background-color: white;
+
+}
+
+.hist2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+
+}
+
+.whoimg {
+    width: 40px;
+}
+
+.grid1 {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    flex: wrap;
+
+
+}
+
+.grid2 {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    flex: wrap;
+
+}
+
+.relative {
+    margin-top: 30px;
+}
+
+.statistics {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.chapters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ed1c2e;
+    width: 20%;
+    height: 80%;
+    transform: skewY(3deg);
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+}
+
+.chapters:hover {
+    background-color: #fff200;
+    transform: translateY(-5px);
+    color: #231f20;
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ed1c2e;
+    width: 20%;
+    height: 80%;
+    margin-top: 3%;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+}
+
+.members:hover {
+    background-color: #fff200;
+    transform: translateY(-5px);
+    color: #231f20;
+}
+
+.countries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    background-color: #ed1c2e;
+    width: 20%;
+    height: 80%;
+    transform: skewY(-3deg);
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+}
+
+.countries:hover {
+    background-color: #fff200;
+    transform: translateY(-5px);
+    color: #231f20;
+}
+
+.first {
+    font-size: 40px;
+}
+
+.history-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+}
+
+.midsec {
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.supacell {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.perc-head {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.percs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex: wrap;
+    text-align: center;
+}
+
+.get-involved {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ed1c2e;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+
+.get-involved:hover {
+    background-color: #fff200;
+    color: #231f20;
+    transform: translateY(-5px);
+}
+
+.endstuff {
+    margin-bottom: 40px;
+}
+
+.joinus {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+    .statistics {
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    .first {
+        font-size: 30px;
+    }
+
+    .first-1 {
+        font-size: 20px;
+    }
+
+    .slideshow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+        height: 100%;
+    }
+
+    .midsec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chapters {
+        justify-content: start;
+    }
+
+    .percs {
+        text-align: center;
+
+    }
+
+    .supacell {
+        width: 80%;
+    }
+
+    .hist2 {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-info {
+        text-align: justify;
+    }
+
+    .grid1 {
+        flex-direction: column;
+        width: 100vw;
+        flex: wrap;
+        text-align: center;
+    }
+
+    .grid2 {
+        flex-direction: column;
+        width: 100vw;
+        flex: wrap;
+        text-align: center;
+    }
+
+    .chapters {
+        width: 30%;
+        height: 100%;
+    }
+
+    .members {
+        width: 30%;
+        height: 100%;
+    }
+
+    .countries {
+        width: 30%;
+        height: 100%;
+    }
+
+    .offer-container {
+        height: fit-content;
+    }
+
+    .mid_help {
+        height: 1500px;
+    }
+
+}

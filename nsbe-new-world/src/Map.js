@@ -17,7 +17,7 @@ const MapSection = () => {
 
     return (
         <Box ref={ref} as={motion.div} initial="hidden" animate={isInView ? 'visible' : 'hidden'} variants={mapVariants} m={{ base: 5, sm: 10, md: 20, lg: 30 }} p={4} width="100%">
-            <Heading as="h2" size="lg" textAlign="center" color="white">
+            <Heading as="h2" size="lg" textAlign="center" color="white" textDecoration="underline">
                 You Can Find Us Here
             </Heading>
             <Box mt={5} borderColor="brand.NSBEYellow" borderWidth="2px" rounded="lg">

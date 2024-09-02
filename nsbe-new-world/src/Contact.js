@@ -26,6 +26,7 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import mailing from './incoming-mail-svgrepo-com.svg';
 import MapSection from './Map';
+import ParticlesComponent from './ParticleBackground';
 
 // Animation variants for different elements
 const containerVariants = {
@@ -91,6 +92,7 @@ export default function Contact() {
             pb="100px"
             centerContent
             overflow="hidden">
+            <Heading color="white" pt={3}>Contact Us</Heading>
             <Flex direction={{ base: 'column', lg: 'row' }} justifyContent="space-between">
                 {/* Left side: Contact information with icons */}
                 <Box
@@ -216,7 +218,7 @@ export default function Contact() {
                     m={{ base: 4, md: 16, lg: 10 }}
                     p={{ base: 4, sm: 5, md: 5, lg: 16 }} // Reduced padding for base
                     flex="1"
-                    ml={{ base: 0, lg: 4 }}> {/* Remove margin-left on base */}
+                    mr={{ base: 0, lg: 4 }}> {/* Remove margin-left on base */}
                     <Box display={{ base: 'block', lg: 'flex' }} alignItems="center">
                         {/* Image and Heading/Text Box */}
                         <Box flex="1" display="flex" alignItems="center" ml={{ base: 0, lg: 8 }}>

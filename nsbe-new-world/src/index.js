@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 const colors = {
   brand: {
@@ -20,7 +22,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
+      <Navbar />
       <App />
+      <Footer />
     </ChakraProvider>
   </React.StrictMode>
 );
