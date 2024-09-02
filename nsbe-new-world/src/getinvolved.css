@@ -13,11 +13,6 @@ code {
         monospace;
 }
 
-.theme_color {
-    color: #892be2;
-    background-color: #892be2;
-}
-
 
 .intro-container {
     background-color: rgba(0, 0, 0, 0.6);
@@ -33,29 +28,6 @@ html {
 section {
     scroll-margin-top: 60px;
     padding-bottom: 4rem;
-}
-
-/* Dark mode */
-.dark input[type="email"],
-.dark input[type="text"],
-.dark textarea {
-    box-shadow: 0 4px 6px rgba(59, 130, 246, 0.2);
-}
-
-nav {
-    color: #F3F8FF;
-    background-color: #303C55;
-    text-shadow: 3px 5px 3px rgb(33, 1, 48);
-}
-
-nav li:hover,
-nav a:hover {
-    color: #E26EE5;
-    animation: bounce 1s infinite;
-}
-
-nav span:hover {
-    color: #E26EE5;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
@@ -75,51 +47,6 @@ nav span:hover {
     height: 100px;
     width: 100%;
 }
-
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: translateY(-25%);
-        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
-    }
-
-    50% {
-        transform: translateY(0);
-        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-    }
-}
-
-.custom-button {
-    background: rgb(73, 16, 139);
-    background: linear-gradient(0deg, rgba(73, 16, 139, 1) 0%, rgba(138, 43, 226, 1) 100%);
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    font-size: 1rem;
-    margin-top: 1rem;
-    color: white;
-    font-weight: bold;
-}
-
-.custom-button:hover {
-    background: rgb(73, 16, 139);
-    background: linear-gradient(180deg, rgba(73, 16, 139, 1) 0%, rgba(138, 43, 226, 1) 100%);
-    color: #E26EE5;
-}
-
-.footer {
-    background: rgb(209, 209, 209);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 1rem;
-    /* position: fixed; */
-    bottom: 0;
-    width: 100%;
-    border-top: black 1px solid;
-}
-
 
 .getInvolvedContainer {
     height: 100%;
