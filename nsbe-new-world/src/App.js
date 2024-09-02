@@ -4,12 +4,13 @@ import Members from './Member'
 import { Box } from '@chakra-ui/react'
 import Contact from './Contact';
 import HomePage from './Home';
-
+import ParticlesComponent from './ParticleBackground';
 
 function App() {
   return (
     <Router>
       <Box minHeight="100vh" bg='brand.NSBEBlack'>
+        <ParticlesComponent />
         <Routes>
           <Route path="/" element={<HomePage/>}/>
           <Route path="/events" element={<Event />} />

@@ -26,6 +26,7 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import mailing from './incoming-mail-svgrepo-com.svg';
 import MapSection from './Map';
+import ParticlesComponent from './ParticleBackground';
 
 // Animation variants for different elements
 const containerVariants = {
@@ -91,6 +92,7 @@ export default function Contact() {
             pb="100px"
             centerContent
             overflow="hidden">
+            {/* <ParticlesComponent /> */}
             <Flex direction={{ base: 'column', lg: 'row' }} justifyContent="space-between">
                 {/* Left side: Contact information with icons */}
                 <Box
