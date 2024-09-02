@@ -13,12 +13,14 @@ export default function InfoCard() {
             header: "Become a Member",
             description: "Want to become a member? Click the link below and fill out our membership form/registration form to get exclusive benefits and more opportunities",
             buttonDesc: "Join Us",
+            link: "https://docs.google.com/forms/d/e/1FAIpQLSfplx30HQHxu1OfNIjlSgTWFdMEh1KOWg6SuE553nPf1osPXA/viewform",
         },
         {
             icon: mentorship,
             header: "Join Our Mentorship Program",
             description: "Unlock your potential and achieve your goals with our mentorship program! Whether you're a first-year student seeking guidance, or someone eager to learn new skills, our program pairs you with experienced mentors who are ready to share their knowledge and expertise.",
             buttonDesc: "Explore",
+            link: "https://docs.google.com/forms/d/e/1FAIpQLSdzXVDymXD1padvy13AceWAT4f6EaNdWLxt9Vq_PB8VGJyFjA/viewform",
         }
     ];
 
@@ -28,12 +30,15 @@ export default function InfoCard() {
             header: "Volunteer",
             description: "Showcase your leadership skills by volunteering and engaging in community outreach events",
             buttonDesc: "Volunteer with Us!",
+            link: "https://docs.google.com/forms/d/e/1FAIpQLSfplx30HQHxu1OfNIjlSgTWFdMEh1KOWg6SuE553nPf1osPXA/viewform",
         },
         {
             icon: mailing,
             header: "Join our Mailing List",
             description: "Fill out the form on this link to stay updated on club activities and opportunities.",
             buttonDesc: "Subscribe Now",
+            link: "https://mailchi.mp/ffc3b0345e78/nsbe-ucalgary-newsletter",
+
         }]
 
 
@@ -51,7 +56,7 @@ export default function InfoCard() {
                         <p className="inv-info tracking-tight font-semibold text-lg text-center text-gray-900 my-4 px-4 dark:text-white">
                             {dataItem.description}
                         </p>
-                        <button type="custom-button" className="tobons transition hover:-translate-y-1 hover:scale-80 ease-in-out delay-100 text-white bg-violet-900 font-extrabold text-xl tracking-wider hover:shadow-xl hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-yellow-400 font-medium px-3 py-2 text-center dark:bg-teal-700 dark:hover:bg-teal-900 dark:focus:ring-blue-800"><a href='https://docs.google.com/forms/d/e/1FAIpQLSfplx30HQHxu1OfNIjlSgTWFdMEh1KOWg6SuE553nPf1osPXA/viewform' target="_blank" rel="noreferrer">{dataItem.buttonDesc}</a></button>
+                        <button type="custom-button" className="tobons transition hover:-translate-y-1 hover:scale-80 ease-in-out delay-100 text-white bg-violet-900 font-extrabold text-xl tracking-wider hover:shadow-xl hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-yellow-400 font-medium px-3 py-2 text-center dark:bg-teal-700 dark:hover:bg-teal-900 dark:focus:ring-blue-800"><a href={dataItem.link} target="_blank" rel="noreferrer">{dataItem.buttonDesc}</a></button>
                     </div>
 
                 ))}</div>
@@ -66,7 +71,7 @@ export default function InfoCard() {
                             <p className="inv-info tracking-tight font-semibold text-lg text-center text-gray-900 my-4 px-4 dark:text-white">
                                 {dataItem.description}
                             </p>
-                            <button type="custom-button" className="tobons transition hover:-translate-y-1 hover:scale-80 ease-in-out delay-100 text-white bg-violet-900 font-extrabold text-xl tracking-wider hover:shadow-xl hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-yellow-400 font-medium px-3 py-2 text-center dark:bg-teal-700 dark:hover:bg-teal-900 dark:focus:ring-blue-800"><a href='https://docs.google.com/forms/d/e/1FAIpQLSfplx30HQHxu1OfNIjlSgTWFdMEh1KOWg6SuE553nPf1osPXA/viewform' target="_blank" rel="noreferrer">{dataItem.buttonDesc}</a></button>
+                            <button type="custom-button" className="tobons transition hover:-translate-y-1 hover:scale-80 ease-in-out delay-100 text-white bg-violet-900 font-extrabold text-xl tracking-wider hover:shadow-xl hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-yellow-400 font-medium px-3 py-2 text-center dark:bg-teal-700 dark:hover:bg-teal-900 dark:focus:ring-blue-800"><a href={dataItem.link} target="_blank" rel="noreferrer">{dataItem.buttonDesc}</a></button>
                         </div>
 
 

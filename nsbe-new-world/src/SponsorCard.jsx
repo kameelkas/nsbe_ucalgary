@@ -79,7 +79,7 @@ export default function SponsorCard() {
                     ))}
                 </div>
                 <div className="spons4 mt-12 text-center">
-                    <a href="/contact" className="lastobutn inline-block px-6 py-3 border border-transparent text-base leading-6 font-bold rounded-md text-black bg-indigo-500 hover:bg-indigo-400 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out">Contact Us</a>
+                    <a href="/contact-us" className="lastobutn inline-block px-6 py-3 border border-transparent text-base leading-6 font-bold rounded-md text-black bg-indigo-500 hover:bg-indigo-400 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out">Contact Us</a>
                 </div>
             </div>
         </section>

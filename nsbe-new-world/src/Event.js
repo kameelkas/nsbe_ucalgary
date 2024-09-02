@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Calendar from "react-calendar";
 import { format } from "date-fns";
 import { Box, Text, Heading, Image } from "@chakra-ui/react";
 import Research from "./images/researchNight.png";
 import Career from "./images/careerFair.png";
+import Mentorship from "./images/mentorshipEvent.jpg"
 
 
 const events = [
@@ -23,12 +24,19 @@ const events = [
       "An event to meet and network with professionals in the tech industry.",
     location: "Main Hall, Conference Center",
   },
-  // Add more events as needed
-];
+  {
+    id: 3,
+    title: "Mentorship Program (Start)",
+    date: new Date(2024, 8, 15),
+    description:
+      "A program to offer professional, career, and academic guidance and support and foster project and research development.",
+    location: "To Be Announced",
+  },];
 
 const Event = () => {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [selectedEvent, setSelectedEvent] = useState(null);
+  const eventDetailsRef = useRef(null);
 
   const handleDateChange = (date) => {
     setSelectedDate(date);
@@ -37,6 +45,12 @@ const Event = () => {
     );
     setSelectedEvent(event || null);
   };
+
+  useEffect(() => {
+    if (selectedEvent && eventDetailsRef.current) {
+      eventDetailsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [selectedEvent]);
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center" pb={6}>
@@ -82,6 +96,7 @@ const Event = () => {
           maxWidth="600px"
           width="80%"
           boxShadow="md"
+          ref={eventDetailsRef}
         >
           <Heading size="md" mb={2}>
             {selectedEvent.title}
@@ -125,6 +140,16 @@ const Event = () => {
             p={1}
             m={2}
             alt='Research Night Poster'
+          />
+          <Image
+            border="2px"
+            borderColor="brand.NSBEYellow"
+            src={Mentorship}
+            w='340px'
+            h='400px'
+            p={1}
+            m={2}
+            alt='Mentorship Event'
           />
         </Box>
       </Box>
