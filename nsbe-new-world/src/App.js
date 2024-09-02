@@ -16,10 +16,11 @@ function App() {
         <ParticlesComponent />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about-us" element={<About />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
           <Route path="/events" element={<Event />} />
-          <Route path="/members" element={<Members />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/our-team" element={<Members />} />
+          <Route path="/contact-us" element={<Contact />} />
           <Route path="/get-involved" element={<Volunteer />} />
           <Route path="*" element={<NotFound/> } />
         </Routes>

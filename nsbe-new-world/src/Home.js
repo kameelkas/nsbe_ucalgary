@@ -8,13 +8,17 @@ import sponsorBG from './images/NSBESponsor.jpg'
 import ParticlesComponent from './ParticleBackground';
 import news from './images/newsletter.png'
 import tea from './images/NsbeTea.webp'
+import { motion } from 'framer-motion';
+
+const MotionBox = motion(Box);
+const MotionVStack = motion(VStack);
 
 
 export default function HomePage() {
     return (
         <>
             {/* Hero Section */}
-            <Box
+            <MotionBox
                 id="hero"
                 w="100vw"
                 minH="100vh"
@@ -24,6 +28,9 @@ export default function HomePage() {
                 position="sticky"
                 top="0"
                 opacity={1}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
             >
                 <Box
                     position="absolute"
@@ -43,7 +50,15 @@ export default function HomePage() {
                     py={{ base: 6, md: 12, lg: 16 }}
                     px={{ base: 4, md: 8 }}
                 >
-                    <VStack spacing={{ base: 4, md: 6, lg: 8 }} color="white" textAlign="center" mt={{base: 60, md: 8, lg:12}}>
+                    <MotionVStack
+                        spacing={{ base: 4, md: 6, lg: 8 }}
+                        color="white"
+                        textAlign="center"
+                        mt={{ base: 60, md: 8, lg: 12 }}
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1, delay: 0.5 }}
+                    >
                         <Heading fontSize={{ base: "2xl", sm: "3xl", md: "4xl", lg: "5xl" }} fontWeight="bold" bgGradient="linear(to-r, yellow.400, red.500)" bgClip="text">
                             NATIONAL SOCIETY OF BLACK ENGINEERS
                         </Heading>
@@ -67,9 +82,9 @@ export default function HomePage() {
                                 Become A Sponsor
                             </Button>
                         </HStack>
-                    </VStack>
+                    </MotionVStack>
                 </Container>
-            </Box>
+            </MotionBox>
 
             {/* What We Offer Section */}
             <Box
